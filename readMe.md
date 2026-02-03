@@ -1,89 +1,70 @@
-# Code Combat: ASCII Strikes Back
+# Code Combat
 
-Welcome to Code Combat: ASCII Strikes Back! 
+**ASCII Arcade Shooter Built with Pygame (Space-Invaders Inspired)**
 
-In "Code Combat: ASCII Strikes Back," players wield the ASCII Cannon to fend off waves of pesky bugs threatening the digital realm.
-
-This readme file will guide you through the steps to run the project successfully on your local machine.
-
-![image](assets/images/screenshots/main_screenshot-code-combat.png)
-
-## Option 1: Running the program as an executable
-
-To run the program as an executable, follow these simple steps:
-
-1. **Download and Extract**: Download the `code_combat.zip` from the repository. Once downloaded, extract the contents of the zip file to a location of your choice on your computer.
-
-2. **Locate the Executable**: Navigate to the `build/code_combat` directory within the extracted folder.
-
-3. **Run the Executable**: Double-click the `code_combat.exe` file to launch the program.
-
-
-## Option 2: Building and running the program from source
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed on your system:
-- [Python](https://www.python.org/downloads/) (version 3.6 or later)
-- [Pygame](https://www.pygame.org/download.shtml) library
-
-### Installation
-
-1. Clone the repository to your local machine using the following command:
-
-       git clone https://github.com/Adamgtay/Code-Combat-ASCII-Strikes-Back.git
-
-
-2. Navigate to the project directory:
-
-       cd Code-Combat-ASCII-Strikes-Back/src
-
-
-### Installing Python and Pygame
-
-#### Installing Python
-
-If you don't have Python installed on your system, you can download it from the official Python website:
-[Python Downloads](https://www.python.org/downloads/)
-
-Follow the installation instructions provided on the website for your specific operating system.
-
-#### Installing Pygame
-
-Once Python is installed, you can install Pygame using pip, the Python package manager. Open a terminal or command prompt window and run the following command:
-
-    pip install pygame
-
-
-This will download and install the Pygame library and its dependencies.
-
-### Running the Project
-
-To run the Pygame project, follow these steps:
-
-1. Open a terminal or command prompt window.
-
-2. Navigate to the project directory if you're not already there.
-
-3. Run the main Python file of the project using the following command:
-
-       python3 code_combat.py
-
-
-### Controls
-
-Once the project is running, you can control the game using the following keys:
-
-- Movement: UP, DOWN, LEFT, RIGHT arrows
-- Fire Weapon: SPACE
-- Quit: Q
-
-## Additional Notes
-
-All graphics and sounds © Adam Taylor.
-
-
+**Language:** Python  
+**Technologies:** Pygame, ASCII rendering, Game Loop Logic  
 
 ---
 
-Thank you for trying out Code Combat: ASCII Strikes Back! If you encounter any issues or have any feedback, feel free to open an issue on GitHub or contact me directly. Have fun playing the game!
+## Description
+
+Code Combat is a Space-Invaders–inspired arcade shooter built using **Python and Pygame**, where all visuals are created using **custom ASCII graphics** rather than traditional sprites.
+
+The project combines **game logic, creative design, and playful experimentation**, using text characters as a visual language while still benefiting from Pygame’s event handling, timing, and structure.
+
+---
+
+## Creative Approach
+
+All game visuals were intentionally designed in ASCII:
+
+- The player controls a **battle tank** drawn entirely with characters  
+- Enemies are **bug-shaped**, a playful nod to programming “bugs”  
+- Projectiles fire **random ASCII characters**, reinforcing the coding theme  
+- Explosions are animated using ASCII-based sequences  
+
+This approach treats text as a **creative medium**, not a limitation, and encourages learners to think visually even without sprites or images.
+
+---
+
+## Why ASCII with Pygame?
+
+Using Pygame for an ASCII-rendered game serves both creative and educational goals:
+
+- Separates **game mechanics from visual assets**
+- Makes movement, collision, and state changes easy to reason about
+- Demonstrates how visuals can be layered on top of solid logic
+- Provides a stepping stone from CLI games to sprite-based Pygame projects  
+
+---
+
+## Features
+
+- Real-time player movement and shooting  
+- Enemy waves with increasing difficulty  
+- Collision detection using grid-based logic  
+- Score tracking and game states  
+- Pygame-powered input handling and frame timing  
+
+---
+
+
+## Learning Outcomes / Skills Demonstrated
+- Creative use of Pygame beyond sprite-based graphics
+- Designing and implementing a complete game loop
+- Real-time input handling and state management
+- Collision detection without traditional visual assets
+- Combining technical systems with playful design choices
+
+## Educational Value
+Code Combat is well-suited for teaching young learners because it:
+- Shows how games work internally, without hiding logic
+- Encourages creativity even with technical constraints
+- Makes abstract concepts like collision and state visible
+- Acts as a bridge from text-based games to graphical ones
+
+
+![image](assets/images/screenshots/main_screenshot-code-combat.png)
+
+
