@@ -12,7 +12,7 @@ START_TIME = pygame.time.get_ticks()
 
 # FONTS
 FONT_LOCATION = "/Users/Adam/Desktop/coding/games/tanks/assets/fonts/dogica.ttf"
-MAIN_MUSIC_LOCATION = "/Users/Adam/Desktop/coding/games/tanks/assets/sound/main-theme.wav"
+MAIN_MUSIC_LOCATION = "/Users/Adam/Desktop/coding/games/tanks/assets/sound/DT_theme - 01.06.2024, 21.58.mp3"
 MAIN_FONT = pygame.font.Font(
     "/Users/Adam/Desktop/coding/games/Tanks/assets/fonts/Menlo.ttc", 12)
 MISSILE_FONT = pygame.font.Font(
