@@ -65,6 +65,6 @@ Code Combat is well-suited for teaching young learners because it:
 - Acts as a bridge from text-based games to graphical ones
 
 
-![image](assets/images/screenshots/main_screenshot-code-combat.png)
+![image](assets/video/code_combat_gameplay.mov)
 
 
