@@ -32,10 +32,10 @@ CAPTION_FONT = pygame.font.Font(
 # text elements
 
 # colours
-RED = (230, 0, 0)
+RED = (218, 112, 214)
 GREEN = (0, 255, 0)
-BLUE = (0, 0, 255)
-YELLOW = (255, 255, 0)
+BLUE = (156, 220, 254)
+YELLOW = (255, 201, 20)
 CYAN = (0, 255, 255)
 MAGENTA = (255, 0, 255)
 WHITE = (255, 255, 255)
@@ -71,7 +71,7 @@ STARTUP_SCREEN_EXIT = "Press SPACE to continue"
 KEY_TO_RESTART = "Press ENTER to play again"
 STARTUP_SCREEN_EXIT_COLOUR = RED
 STARTUP_SCREEN_CONTROLS = "Movement: UP | DOWN | LEFT | RIGHT\nFire Weapon: SPACE\nQuit: Q\nPause: P"
-STARTUP_SCREEN_CONTROLS_COLOUR = CYAN
+STARTUP_SCREEN_CONTROLS_COLOUR = BLUE
 WIN_SCORE_LARGE = "BUGS"
 WIN_TEXT_WITH_SCORE = "Terminated with extreme prejudice!"
 WIN_TEXT = "Debugging is complete!\nVictory is ours!"
@@ -82,7 +82,7 @@ NO_MISSILES_TEXT = "Your ASCII artillery has been fully depleted!"
 NO_TIME_TEXT = "Time's up! Better luck next compile!"
 DEFEAT_TEXT = "Don't let this defeat discourage you!\nThe ASCII universe awaits your return!"
 MOTIVATE_TEXT = "It's not a feature, it's a bug!"
-PAUSED_TEXT_COLOUR = CYAN
+PAUSED_TEXT_COLOUR = BLUE
 # SCREEN SETUP
 SCREEN_WIDTH = 1200
 SCREEN_HEIGHT = 800
@@ -102,10 +102,10 @@ MISSILE_HEIGHT, MISSILE_WIDTH = display_ascii.measure_unit_size(
     level_one_ascii_units.player_missile["missile"], CHAR_SPACING_X, CHAR_SPACING_Y)
 PLAYER_HEIGHT, PLAYER_WIDTH = display_ascii.measure_unit_size(
     level_one_ascii_units.player_tank["straight"], CHAR_SPACING_X, CHAR_SPACING_Y)
-PLAYER_TANK_COLOUR = (0, 200, 255)
+PLAYER_TANK_COLOUR = BLUE
 
 # enemy constants
-ENEMY_TANK_COLOUR = (200, 0, 0)
+ENEMY_TANK_COLOUR = RED
 ENEMY_ACCELERATION = 4
 ENEMY_HEIGHT, ENEMY_WIDTH = display_ascii.measure_unit_size(
     level_one_ascii_units.enemy_tank["straight"], CHAR_SPACING_X, CHAR_SPACING_Y)
