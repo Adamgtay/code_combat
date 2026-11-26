@@ -11,22 +11,22 @@ CLOCK = pygame.time.Clock()
 START_TIME = pygame.time.get_ticks()
 
 # FONTS
-FONT_LOCATION = "/Users/Adam/Desktop/coding/games/tanks/assets/fonts/dogica.ttf"
+FONT_LOCATION = "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/dogica.ttf"
 MAIN_MUSIC_LOCATION = "/Users/Adam/Desktop/coding/games/tanks/assets/sound/DT_theme - 01.06.2024, 21.58.mp3"
 MAIN_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/coding/games/Tanks/assets/fonts/Menlo.ttc", 12)
+    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/Menlo.ttc", 12)
 MISSILE_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/coding/games/Tanks/assets/fonts/Menlo.ttc", 18)
+    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/Menlo.ttc", 18)
 TITLE_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/coding/games/Tanks/assets/fonts/VictorMono-Medium.ttf", 46)
+    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/VictorMono-Medium.ttf", 46)
 BIG_TITLE_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/coding/games/Tanks/assets/fonts/VictorMono-Medium.ttf", 72)
+    "//Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/VictorMono-Medium.ttf", 72)
 BIG_SCORE_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/coding/games/Tanks/assets/fonts/VictorMono-Medium.ttf", 120)
+    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/VictorMono-Medium.ttf", 120)
 SUB_TITLE_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/coding/games/Tanks/assets/fonts/VictorMono-Medium.ttf", 30)
+    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/VictorMono-Medium.ttf", 30)
 CAPTION_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/coding/games/Tanks/assets/fonts/VictorMono-Medium.ttf", 24)
+    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/VictorMono-Medium.ttf", 24)
 
 
 # text elements
