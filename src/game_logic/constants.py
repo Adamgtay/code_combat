@@ -11,22 +11,22 @@ CLOCK = pygame.time.Clock()
 START_TIME = pygame.time.get_ticks()
 
 # FONTS
-FONT_LOCATION = "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/dogica.ttf"
-MAIN_MUSIC_LOCATION = "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/sound/DT_theme - 01.06.2024, 21.58.mp3"
+FONT_LOCATION = "../assets/fonts/dogica.ttf"
+MAIN_MUSIC_LOCATION = "../assets/sound/DT_theme - 01.06.2024, 21.58.mp3"
 MAIN_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/Menlo.ttc", 12)
+    "../assets/fonts/Menlo.ttc", 12)
 MISSILE_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/Menlo.ttc", 18)
+    "../assets/fonts/Menlo.ttc", 18)
 TITLE_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/VictorMono-Medium.ttf", 46)
+    "../assets/fonts/VictorMono-Medium.ttf", 46)
 BIG_TITLE_FONT = pygame.font.Font(
-    "//Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/VictorMono-Medium.ttf", 72)
+    "../assets/fonts/VictorMono-Medium.ttf", 72)
 BIG_SCORE_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/VictorMono-Medium.ttf", 120)
+    "../assets/fonts/VictorMono-Medium.ttf", 120)
 SUB_TITLE_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/VictorMono-Medium.ttf", 30)
+    "../assets/fonts/VictorMono-Medium.ttf", 30)
 CAPTION_FONT = pygame.font.Font(
-    "/Users/Adam/Desktop/google_drive/projects/game_portfolio/code_combat/assets/fonts/VictorMono-Medium.ttf", 24)
+    "../assets/fonts/VictorMono-Medium.ttf", 24)
 
 
 # text elements
